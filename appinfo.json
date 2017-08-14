@@ -1,5 +1,9 @@
 {
-    "appKeys": {},
+    "appKeys": {
+        "JS_READY": 0,
+        "LUNCH_DATE": 1,
+        "LUNCH_MENU": 2
+    },
     "capabilities": [
         ""
     ],
@@ -8,19 +12,38 @@
     "longName": "Kabbage Lunch",
     "projectType": "native",
     "resources": {
-        "media": []
+        "media": [
+            {
+                "type": "bitmap",
+                "name": "APP_ICON",
+                "file": "icon.png",
+                "menuIcon": true
+            },
+            {
+                "type": "bitmap",
+                "name": "BACKGROUND_LOGO",
+                "file": "background-logo.png",
+                "targetPlatforms": [
+                    "basalt",
+                    "chalk",
+                    "diorite",
+                    "emery"
+                ]
+            }
+        ]
     },
     "sdkVersion": "3",
     "shortName": "Kabbage Lunch",
     "targetPlatforms": [
         "aplite",
         "basalt",
-        "chalk"
+        "chalk",
+        "diorite",
+        "emery"
     ],
     "uuid": "2f6bab76-390b-477d-886c-d44b7969f33a",
-    "versionLabel": "1.0",
+    "versionLabel": "2.0",
     "watchapp": {
-        "hiddenApp": true,
         "watchface": false
     }
 }
