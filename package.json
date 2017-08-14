@@ -1,0 +1,50 @@
+{
+    "author": "craig.d.alexander@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "kabbage-lunch",
+    "pebble": {
+        "displayName": "Kabbage Lunch",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "JS_READY": 0,
+            "LUNCH_DATE": 1,
+            "LUNCH_MENU": 2
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/icon.png",
+                    "menuIcon": true,
+                    "name": "APP_ICON",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/background-logo.png",
+                    "name": "BACKGROUND_LOGO",
+                    "targetPlatforms": [
+                        "basalt",
+                        "chalk",
+                        "diorite",
+                        "emery"
+                    ],
+                    "type": "bitmap"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite",
+            "emery"
+        ],
+        "uuid": "2f6bab76-390b-477d-886c-d44b7969f33a",
+        "watchapp": {
+            "watchface": false
+        }
+    },
+    "version": "2.0.0"
+}

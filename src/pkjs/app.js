@@ -1,4 +1,4 @@
-var lunchApiBaseUrl = 'http://lunch.kabbage.com/api/v2'
+var lunchApiBaseUrl = 'http://lunch.kabbage.com/api/v2';
 
 var sendMenu = function(menu) {
     Pebble.sendAppMessage({
@@ -28,8 +28,8 @@ var fetchLunch = function(date, menuCallback) {
     };
 
     request.open('GET', lunchApiBaseUrl + '/lunches/' + date);
-    request.send()
-}
+    request.send();
+};
 
 Pebble.addEventListener('ready', function (e) {
     console.log('PebbleKit JS ready.');
